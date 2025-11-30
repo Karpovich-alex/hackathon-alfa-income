@@ -7,7 +7,7 @@
 ## Запуск проекта
 1. Настроить и активировать виртуальную среду
 ```commandline
-python -m venv vevn
+python -m venv venv
 source ./venv/Scripts/activate
 ```
 2. Установить зависимости:
