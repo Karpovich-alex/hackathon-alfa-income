@@ -138,7 +138,7 @@ if clients_file is not None:
             shap_values = calc_shap_values(explainer, selected_row)
 
         st.subheader("Анализ признаков клиента")
-        st_shap(shap.force_plot(explainer.expected_value, shap_values, selected_row), height=200,
+        st_shap(shap.force_plot(shap_values, features=selected_row), height=200,
                 width=1000)
         st_shap(shap.plots.waterfall(shap_values[0]))
         st_shap(shap.plots.beeswarm(shap_values))
