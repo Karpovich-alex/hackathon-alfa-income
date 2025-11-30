@@ -7,7 +7,7 @@ from streamlit_shap import st_shap
 
 feature_desc_path = "./data/features_description.csv"
 # train_data_path = "./data/hackathon_income_train.csv"
-model_path = "./models/submission_a6.lgbm"
+model_path = "./models/submission_a7.lgbm"
 # shap_explainer_path = "./models/submition_a2.explainer"
 cols_to_display = ["id", "gender", "adminarea", "age", "city_smart_name", "addref", "blacklist_flag",
                    "client_active_flag", "nonresident_flag", ""]
